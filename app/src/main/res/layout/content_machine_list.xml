@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sriyaan.ac.MachineList"
+    tools:showIn="@layout/activity_machine_list">
+    <RelativeLayout
+        android:id="@+id/toprel"
+        android:layout_width="match_parent"
+        android:background="#FF6501"
+        android:layout_height="50dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="5dp"
+            android:background="@drawable/radius_border"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:id="@+id/txt_leftarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#FFDDDDDD"
+                android:layout_gravity="left"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/backarrow"
+                />
+
+            <EditText
+
+                android:id="@+id/edtsearch"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:hint="Search here(eg.name)"
+                android:background="@null"
+                android:maxLines="1"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txt_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="#FFDDDDDD"
+                android:layout_gravity="right"
+                android:text="@string/search"
+                android:layout_marginRight="5dp"
+
+                />
+
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toprel"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:id="@+id/gonetxt"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="No Record Found"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="5dp"
+
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

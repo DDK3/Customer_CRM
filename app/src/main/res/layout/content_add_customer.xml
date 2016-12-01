@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sriyaan.ac.AddCustomer"
+    tools:showIn="@layout/activity_add_customer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/customer_name_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/customer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Customer Name"
+
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+            <!--android:id="@+id/customer_name"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@animator/edit_text_style"-->
+            <!--android:hint="Customer Name"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:textColorHint="#FF6501"/>-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/mobile_number_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Mobile Number"
+                android:inputType="phone"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+            <!--android:id="@+id/mobile_number"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@animator/edit_text_style"-->
+            <!--android:hint="Mobile Number"-->
+
+            <!--android:maxEms="10"-->
+            <!--android:inputType="phone"-->
+            <!--android:textColorHint="#FF6501"/>-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email_id_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email Id"
+                android:inputType="textWebEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+        <!--android:id="@+id/email_id"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@animator/edit_text_style"-->
+        <!--android:hint="Email Id"-->
+        <!--android:inputType="textWebEmailAddress"-->
+
+        <!--android:textColorHint="#FF6501"/>-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/city_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter City Name"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+            <!--android:id="@+id/city"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@animator/edit_text_style"-->
+            <!--android:hint="City"-->
+            <!--android:inputType="text"-->
+
+            <!--android:textColorHint="#FF6501"/>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/area_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Area Name"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+            <!--android:id="@+id/area"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@animator/edit_text_style"-->
+            <!--android:hint="Area"-->
+            <!--android:inputType="text"-->
+
+            <!--android:textColorHint="#FF6501"/>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/address_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Address"
+                android:maxLines="4"
+                android:inputType="textPostalAddress"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+            <!--android:id="@+id/address"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:textAlignment="textStart"-->
+            <!--android:gravity="start"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@animator/edit_text_style"-->
+            <!--android:hint="Address"-->
+            <!--android:inputType="textPostalAddress"-->
+
+            <!--android:textColorHint="#FF6501" />-->
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="#FF6501"
+            android:text="Submit"
+            android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>

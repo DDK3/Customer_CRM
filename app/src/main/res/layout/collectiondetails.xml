@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="@dimen/activity_horizontal_margin">-->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="10dp"
+
+        >
+
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="2dp"
+
+
+            android:text="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#FF6501" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/no"
+
+
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:hint="Amount"
+            android:textColor="#FF6501"
+            android:textColorHint="#FF6501"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            />
+
+    <!--<TextView-->
+        <!--android:id="@+id/amountName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@+id/no"-->
+        <!--android:layout_toEndOf="@+id/no"-->
+        <!--android:layout_below="@id/amount"-->
+        <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginStart="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Amount"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+        <!--android:textColor="#727272" />-->
+
+
+    <TextView
+            android:id="@+id/paytype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/amount"
+
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:hint="Chchsue"
+            android:textColor="#FF6501"
+            android:textColorHint="#FF6501"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            />
+
+    <TextView
+        android:id="@+id/cheque_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/paytype"
+
+        android:gravity="right"
+        android:layout_marginLeft="10dp"
+        android:hint="000000"
+        android:textColor="#FF6501"
+        android:textColorHint="#FF6501"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:id="@+id/date_collection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cheque_no"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:hint="10/16/2016"
+        android:textColor="#FF6501"
+        android:textColorHint="#FF6501"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        />
+    <!--<TextView-->
+        <!--android:id="@+id/dateName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@+id/amount"-->
+        <!--android:layout_toEndOf="@+id/amount"-->
+        <!--android:layout_below="@id/date_collection"-->
+        <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginStart="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Date"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+        <!--android:textColor="#727272" />-->
+
+
+    <!--<CheckBox-->
+            <!--android:id="@+id/checkbox_collecton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+            <!--android:layout_marginStart="@dimen/activity_horizontal_margin"-->
+            <!--/>-->
+
+    <View android:layout_below="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_marginTop="5dp"
+        android:background="#D3D3D3" />
+
+    </RelativeLayout>
+
+    <!--<include layout="@layout/item_divider" />-->
+
+    <!--</LinearLayout>-->

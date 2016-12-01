@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:background="#efefef"
+    tools:context="sriyaan.ac.Login"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="#C4CDE0"
+            ></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            android:textSize="30sp"
+
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#C4CDE0"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            ></View>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="Admin Login"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="50dp"
+        />
+
+ <android.support.design.widget.TextInputLayout
+     android:layout_marginTop="30dp"
+    android:id="@+id/mail_text_input_layout"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="left"
+    android:layout_height="wrap_content">
+     <EditText
+         android:id="@+id/usrename"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="left"
+         android:inputType="textEmailAddress"
+         android:hint="Please enter your email id" />
+
+         />
+ </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/password_text_input_layout"
+        android:layout_width="match_parent"
+
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="left"
+
+            android:hint="Please enter password"
+            android:password="true"
+            android:inputType="textPassword"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@animator/border1"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="Login"
+        android:clickable="true"
+        android:textAllCaps="false"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/t1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text="Forgot Password ?"-->
+        <!--android:textAllCaps="false"-->
+
+        <!--/>-->
+
+</LinearLayout>

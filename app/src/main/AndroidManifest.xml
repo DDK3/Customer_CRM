@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sriyaan.ac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddCustomer"
+            android:label="@string/title_activity_add_customer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Machine_Details"
+            android:label="@string/title_activity_machine_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Service_Type"
+            android:label="@string/title_activity_service__type"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExpandList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerView"
+            android:label="@string/title_activity_customer_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerProfile"
+            android:label="@string/title_activity_customer_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminProfile"
+            android:label="@string/title_activity_admin_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditAdminProfile"
+            android:label="@string/title_activity_edit_admin_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerMachineDetails"
+            android:label="@string/title_activity_customer_machine_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerMachineDetailsEdit"
+            android:label="@string/title_activity_customer_machine_details_edit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ServiceSchedule"
+            android:label="@string/title_activity_service_schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MachineList"
+            android:label="@string/title_activity_machine_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YearlyService"
+            android:label="@string/title_activity_yearly_service"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ServiceMachineList"
+            android:label="@string/title_activity_service_machine_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerCollectionList"
+            android:label="@string/title_activity_customer_collection_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerCollectionDetails"
+            android:label="@string/title_activity_customer_collection_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SerachServiceSchedule"
+            android:label="@string/title_activity_serach_service_schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerCollectionAdd"
+            android:label="@string/title_activity_customer_collection_add"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomerCollectionListSearch"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name=".CustomDialog" /> -->
+        <activity
+            android:name=".SearchServiceMachineList"
+            android:label="@string/title_activity_search_service_machine_list"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Signup"></activity>
+    </application>
+
+</manifest>

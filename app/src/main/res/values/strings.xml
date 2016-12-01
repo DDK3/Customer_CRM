@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+
+    <string-array name="area">
+        <item>Yearly Service</item>
+        <item> 2 </item>
+        <item> 4 </item>
+        <item> 6 </item>
+    </string-array>
+
+    <style name="generalnotitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <string-array name="area1">
+        <item>Payment Process</item>
+        <item>By Cheque</item>
+        <item>By Cash</item>
+    </string-array>
+
+    <string name="backarrow"></string>
+    <string name="search"></string>
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-2036073270705945/9175954717</string>
+    <string name="admob_interstitial_id">ca-app-pub-2036073270705945/1652687918</string>
+
+
+
+    <string name="title_activity_customer_view">CustomerView</string>
+    <string name="title_activity_customer_profile">CustomerProfile</string>
+    <string name="title_activity_admin_profile">AdminProfile</string>
+    <string name="title_activity_edit_admin_profile">EditAdminProfile</string>
+    <string name="title_activity_customer_machine_details">CustomerMachineDetails</string>
+    <string name="title_activity_customer_machine_details_edit">CustomerMachineDetailsEdit</string>
+    <string name="title_activity_service_schedule">ServiceSchedule</string>
+    <string name="title_activity_machine_list">MachineList</string>
+    <string name="title_activity_yearly_service">YearlyService</string>
+    <string name="title_activity_service_machine_list">ServiceMachineList</string>
+    <string name="title_activity_customer_collection_list">CustomerCollectionList</string>
+    <string name="title_activity_customer_collection_details">CustomerCollectionDetails</string>
+    <string name="title_activity_serach_service_schedule">SerachServiceSchedule</string>
+    <string name="title_activity_customer_collection_add">CustomerCollectionAdd</string>
+    <string name="title_activity_machine_details">MachineDetails</string>
+    <string name="title_activity_service__type">serviceType</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_search_service_machine_list">SearchServiceMachineList</string>
+</resources>

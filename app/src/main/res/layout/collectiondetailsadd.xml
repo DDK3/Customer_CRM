@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--android:padding="@dimen/activity_horizontal_margin">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:padding="10dp"
+    >
+
+
+    <EditText
+        android:id="@+id/no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF6501" />
+
+    <EditText
+        android:id="@+id/amount1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/no1"
+
+
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:hint="00.00"
+        android:textColor="#FF6501"
+        android:textColorHint="#FF6501"
+android:inputType="numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <TextView
+        android:id="@+id/amountName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/no1"
+        android:layout_toEndOf="@+id/no1"
+        android:layout_below="@id/amount1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:text="Amount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#727272" />
+
+
+    <EditText
+        android:id="@+id/date_collection1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/amount1"
+        android:layout_centerHorizontal="true"
+        android:inputType="date"
+
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:hint="12/06/2016"
+        android:textColor="#FF6501"
+        android:textColorHint="#FF6501"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <TextView
+        android:id="@+id/dateName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/amount1"
+        android:layout_toEndOf="@+id/amount1"
+        android:layout_below="@id/date_collection1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:text="Date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#727272" />
+
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/checkbox_collecton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:layout_marginStart="@dimen/activity_horizontal_margin"-->
+    <!--/>-->
+
+    <View android:layout_below="@+id/amountName1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_marginTop="5dp"
+        android:background="#D3D3D3"
+        android:id="@+id/view" />
+
+
+
+</RelativeLayout>
+
+    <!--<include layout="@layout/item_divider" />-->
+
+    <!--</LinearLayout>-->

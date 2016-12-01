@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="0dp"
+    >
+    <solid android:color="#ffffffff"
+        />
+
+    <stroke android:width="10dp"
+        android:color="#FFF"
+        />
+    <!--<item android:state_pressed="true"-->
+        <!--android:drawable="@drawable/search_icon" /> &lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:state_focused="true"-->
+        <!--android:drawable="@drawable/search_icon" /> &lt;!&ndash; focused &ndash;&gt;-->
+    <!--<item android:state_hovered="true"-->
+        <!--android:drawable="@drawable/search_icon" /> &lt;!&ndash; hovered &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/search_icon" /> &lt;!&ndash; default &ndash;&gt;-->
+<!--<layer-list-->
+    <!--<item android:top="10dp" android:left="10dp">-->
+        <!--<bitmap android:src="@drawable/search_icon"-->
+            <!--android:gravity="center" />-->
+    <!--</item>-->
+    <!--/>-->
+
+
+    <padding android:left="1dp"
+        android:top="1dp"
+        android:right="1dp"
+        android:bottom="1dp"
+        />
+
+    <corners android:bottomRightRadius="0dp" android:bottomLeftRadius="0dp"
+        android:topLeftRadius="0dp" android:topRightRadius="0dp"
+        />
+</shape>

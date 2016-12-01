@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="@dimen/activity_horizontal_margin"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    >
+
+
+        <TextView
+            android:id="@+id/machine_list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+
+            android:text="Dipesh Khatate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF6501" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/machine_list1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/machine_list"-->
+            <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+            <!--android:layout_marginStart="@dimen/activity_horizontal_margin"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="Machine Name"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--android:textColor="#727272" />-->
+
+    <View android:layout_below="@+id/machine_list1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#D3D3D3" />
+
+    </RelativeLayout>
+
+    <!--<include layout="@layout/item_divider" />-->
+
+
